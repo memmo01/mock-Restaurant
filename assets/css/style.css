@@ -1,0 +1,154 @@
+body,html {
+height:100%;
+overflow-x:hidden;
+background-color:#369;
+margin:0 auto;
+padding:0;
+}
+
+.main {
+background-image:url(cooking.jpg);
+height:95%;
+background-position:center;
+background-repeat:no-repeat;
+background-size:cover;
+color:#FFF;
+}
+
+.caption {
+padding-top:25%;
+width:100%;
+text-align:center;
+font-family:"Courier New", Courier, monospace;
+font-size:60px;
+}
+
+.hamburger {
+width:35px;
+height:5px;
+background-color:#FFF;
+margin-bottom:6px;
+}
+
+.hamburg-container {
+position:absolute;
+margin-left:95%;
+padding-top:10px;
+overflow:hidden;
+}
+
+.about-section {
+background-color:#f0f0f5;
+height:150%;
+padding-bottom:100px;
+}
+
+#about-title {
+width:100%;
+text-align:center;
+font-size:55px;
+line-height:1px;
+margin-bottom:20px;
+color:#369;
+padding:80px 0 0;
+}
+
+.article {
+width:100%;
+display:inline-flex;
+margin:100px 0 0 15%;
+}
+
+.article p {
+width:60%;
+padding-bottom:30px;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+#about-title2 {
+margin-left:43%;
+font-size:25px;
+color:#369;
+}
+
+#title2:after {
+content:"___";
+width:260px;
+background-color:#369;
+display:block;
+margin-top:4px;
+font-size:1px;
+margin-left:41.5%;
+}
+
+#article-headline::after {
+font-size:2px;
+content:"___";
+width:33px;
+background-color:#369;
+display:block;
+margin-top:4px;
+}
+
+.article-left {
+width:30%;
+margin-right:60px;
+margin-top:60px;
+}
+
+.article-right {
+width:60%;
+}
+
+#article-quote:after {
+font-size:2px;
+content:"___";
+width:33px;
+background-color:#369;
+display:block;
+margin-top:20px;
+}
+
+.lowerSection {
+height:118.5%;
+background-color:#ffc;
+width:60%;
+margin:80px 0 0 18%;
+}
+
+.row {
+height:300px;
+width:100%;
+display:inline-flex;
+}
+
+.lowerLeft {
+font-size:40px;
+width:50%;
+text-align:center;
+height:400px;
+padding-top:150px;
+color:#369;
+}
+
+.lowerRight2 {
+font-size:40px;
+width:50%;
+text-align:center;
+height:296px;
+padding-top:150px;
+color:#369;
+}
+
+#cookIcon {
+margin:5px 0 0 48%;
+}
+
+#article-headline,#article-quote {
+font-size:30px;
+color:#369;
+}
+
+.lowerRight,.lowerLeft2 {
+width:50%;
+}
