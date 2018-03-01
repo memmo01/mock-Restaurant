@@ -1,14 +1,13 @@
 body,html {
-height:100%;
-overflow-x:hidden;
+ overflow-x:hidden; 
 background-color:#369;
 margin:0 auto;
-padding:0;
+
 }
 
 .main {
-background-image:url(cooking.jpg);
-height:95%;
+background-image:url(../images/cooking.jpg);
+ height:100%; 
 background-position:center;
 background-repeat:no-repeat;
 background-size:cover;
@@ -16,7 +15,7 @@ color:#FFF;
 }
 
 .caption {
-padding-top:25%;
+padding:25% 0 10% 0;
 width:100%;
 text-align:center;
 font-family:"Courier New", Courier, monospace;
@@ -39,7 +38,7 @@ overflow:hidden;
 
 .about-section {
 background-color:#f0f0f5;
-height:150%;
+height:100%;
 padding-bottom:100px;
 }
 
@@ -56,14 +55,13 @@ padding:80px 0 0;
 .article {
 width:100%;
 display:inline-flex;
-margin:100px 0 0 15%;
+margin:100px 0 0 20%;
 }
 
-.article p {
-width:60%;
+ .article p {
 padding-bottom:30px;
-font-family:Arial, Helvetica, sans-serif;
-}
+
+} 
 
 #about-title2 {
 margin-left:43%;
@@ -92,12 +90,14 @@ margin-top:4px;
 
 .article-left {
 width:30%;
-margin-right:60px;
-margin-top:60px;
+margin:75px 0 0 0;
+
+
 }
 
 .article-right {
-width:60%;
+width:30%;
+font-family:Arial, Helvetica, sans-serif;
 }
 
 #article-quote:after {
@@ -110,14 +110,16 @@ margin-top:20px;
 }
 
 .lowerSection {
-height:118.5%;
+height:100%;
 background-color:#ffc;
 width:60%;
 margin:80px 0 100px 18%;
 }
+.lowerSection-container{
+	height:100%;
 
+}
 .row {
-height:300px;
 width:100%;
 display:inline-flex;
 }
@@ -126,8 +128,8 @@ display:inline-flex;
 font-size:40px;
 width:50%;
 text-align:center;
-height:400px;
-padding-top:150px;
+height:100%;
+margin-top:15%;
 color:#369;
 }
 
@@ -135,9 +137,9 @@ color:#369;
 font-size:40px;
 width:50%;
 text-align:center;
-height:296px;
-padding-top:150px;
+height:100%;
 color:#369;
+margin-top:15%;
 }
 
 #cookIcon {
