@@ -29,13 +29,6 @@ background-color:#FFF;
 margin-bottom:6px;
 }
 
-.hamburg-container {
-position:absolute;
-margin-left:95%;
-padding-top:10px;
-overflow:hidden;
-}
-
 .about-section {
 background-color:#f0f0f5;
 height:100%;
@@ -130,26 +123,25 @@ background-color: darksalmon;
     font-size: 40px;
     width: 50%;
     text-align: center;
-    height: 100px;
-    line-height: 90px;
+    height: 100%;
     border-bottom: 2px solid #369;
     border-top: 2px solid #369;
     margin-top: 12%;
-    color: #369;
+	color: #369;
+	padding:10px 0 10px 0;
 }
 
 .lowerRight2 {
 background-color: darksalmon;
     font-size: 40px;
-    /* height: 100px; */
     width: 50%;
     text-align: center;
-    height: 100px;
-    line-height: 90px;
+    height: 100%;
     border-bottom: 2px solid #369;
     border-top: 2px solid #369;
     margin-top: 12%;
-    color: #369;
+	color: #369;
+	padding:10px 0 10px 0;
 }
 #catering:hover{
 	background-color: salmon;
@@ -184,7 +176,7 @@ background-color:#f0f0f5;
 margin:0 auto;
 padding-bottom: 12px;
 display: inline-flex;
-font-size: 24px;
+font-size: 20px;
 
 }
 .hours
@@ -204,4 +196,78 @@ font-size: 24px;
 	text-align: center;
 	line-height: 100px;
 
+}
+
+
+
+
+.modal{
+	display:none;
+	height:100%;
+	width:100%;
+	 background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4);
+	
+	z-index:1;
+	position:fixed;
+	left:0;
+	top:0;
+	overflow:auto;
+
+}
+.modal-inside{
+	/* height:70%; */
+	width:50%;
+	margin:10% auto;
+	background-color:white;
+	border:1px solid black;
+
+
+}
+.close{
+float:right;
+ font-size: 28px;
+    font-weight: bold;
+padding-right:10px;
+
+
+}
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+.modal-title{
+ font-size:28px;
+text-align:center;
+line-height:100px;
+height:100px;
+background-color:blanchedalmond;
+
+}
+
+.top{
+height:100%;
+width:100%;
+background-color:yellow;
+
+}
+.middle{
+height:400px;
+width:100%;
+background-color:blue;
+}
+.theMenu{
+	border:1px solid black;
+	height:1000px;
+	width:90%;
+	margin:10px 0 20px 5%;
+	
+}
+.Reservation{
+	border:1px solid black;
+	height:500px;
+	width:90%;
+	margin:10px 0 20px 5%
 }
