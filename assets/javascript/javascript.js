@@ -30,7 +30,7 @@ $("#reservation").on("click",function(){
 
 $("#catering").on("click",function(){
     $(".modal").css("display","block");
-    populateModal(1)
+    populateModal(2)
 
 })
 
