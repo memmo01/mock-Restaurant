@@ -112,8 +112,8 @@ margin-top:20px;
 .lowerSection {
 height:100%;
 background-color:#ffc;
-width:60%;
-margin:80px 0 100px 18%;
+width:50%;
+margin:80px 0 100px 25%;
 }
 .lowerSection-container{
 	height:100%;
@@ -122,24 +122,46 @@ margin:80px 0 100px 18%;
 .row {
 width:100%;
 display:inline-flex;
+border-bottom:8px solid #369;
 }
 
 .lowerLeft {
-font-size:40px;
-width:50%;
-text-align:center;
-height:100%;
-margin-top:15%;
-color:#369;
+background-color: darksalmon;
+    font-size: 40px;
+    width: 50%;
+    text-align: center;
+    height: 100px;
+    line-height: 90px;
+    border-bottom: 2px solid #369;
+    border-top: 2px solid #369;
+    margin-top: 12%;
+    color: #369;
 }
 
 .lowerRight2 {
-font-size:40px;
-width:50%;
-text-align:center;
-height:100%;
-color:#369;
-margin-top:15%;
+background-color: darksalmon;
+    font-size: 40px;
+    /* height: 100px; */
+    width: 50%;
+    text-align: center;
+    height: 100px;
+    line-height: 90px;
+    border-bottom: 2px solid #369;
+    border-top: 2px solid #369;
+    margin-top: 12%;
+    color: #369;
+}
+#catering:hover{
+	background-color: salmon;
+	 cursor: pointer;
+}
+#menu:hover{
+	background-color: salmon;
+	 cursor: pointer;
+}
+#reservation:hover{
+	background-color: salmon;
+	 cursor: pointer;
 }
 
 #cookIcon {
@@ -162,13 +184,14 @@ background-color:#f0f0f5;
 margin:0 auto;
 padding-bottom: 12px;
 display: inline-flex;
-font-size: 17px
+font-size: 24px;
 
 }
 .hours
 {
-	margin-left:10%;
+	margin-left:7%;
 	text-align: left;
+	
 }
 .contact-info
 {
